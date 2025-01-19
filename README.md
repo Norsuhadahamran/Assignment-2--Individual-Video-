@@ -34,8 +34,17 @@ Add Assembly File: Right-click on the "Source Files" folder in your project, and
    
 **1. Download Irvine.zip**
 
-Go to Repository https://github.com/Norsuhadahamran/Visual-Studio-2019 and download folder "Irvine.Zip"
+1) Go to Repository https://github.com/Norsuhadahamran/Visual-Studio-2019 and download folder "Irvine.Zip"
 ![image](https://github.com/user-attachments/assets/f9825c1b-0f87-4437-981f-a251dcb1e124)
+![image](https://github.com/user-attachments/assets/e15c6f16-9093-40ad-86c2-717ee3f55a9a)
+
+2) In folder download for Irvine folder, click "Extract all" and save at folder C:\
+![image](https://github.com/user-attachments/assets/d4dfefc7-efcd-4b39-a1b0-5f5f6c61e833)
+
+3) Go to folder C:\, click folder Irvine and the contain folder should be like this:
+![Uploading image.png…]()
+
+   
 
 
 
