@@ -55,9 +55,14 @@ Add Assembly File: Right-click on the "Source Files" folder in your project, and
 
 3) Download Code Structure in https://github.com/Norsuhadahamran/Visual-Studio-2019/blob/main/Code%20Structure.
    Copy code structure and paste at Source.asm.
+   ![image](https://github.com/user-attachments/assets/5eef6cac-3eec-4925-8eb7-05bd06a1e57f)
+
+   
 
    **Code Structure:**
-   ; Author:
+
+   
+; Author:
 ; Program Name:
 ; Program Description:
 ; Date
@@ -74,6 +79,8 @@ main PROC
  exit
 main ENDP
 END main
+
+
 
 
 
