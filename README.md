@@ -32,7 +32,7 @@ Add Assembly File: Right-click on the "Source Files" folder in your project, and
    ![image](https://github.com/user-attachments/assets/821b2deb-e0db-4bf6-a946-1383f7f5a59e)
 
    
-**1. Download Irvine.zip**
+**4. Download Irvine.zip**
 
 1) Go to Repository https://github.com/Norsuhadahamran/Visual-Studio-2019 and download folder "Irvine.Zip"
 ![image](https://github.com/user-attachments/assets/f9825c1b-0f87-4437-981f-a251dcb1e124)
@@ -42,7 +42,43 @@ Add Assembly File: Right-click on the "Source Files" folder in your project, and
 ![image](https://github.com/user-attachments/assets/d4dfefc7-efcd-4b39-a1b0-5f5f6c61e833)
 
 3) Go to folder C:\, click folder Irvine and the contain folder should be like this:
-![image](https://github.com/user-attachments/assets/565979fc-f723-4651-a3c5-66164d57d222)
+![image](https://github.com/user-attachments/assets/565979fc-f723-4651-a3c5-66164d57d222
+
+
+**5. Link the Irvine32 Library**
+
+1) In 'Assembly Project Github', go to "add" and click "New item"
+![image](https://github.com/user-attachments/assets/cf73ce06-f67a-483d-86a4-53f39e98a274)
+
+2) Change name Source.cpp to Source.asm and click "add"
+![image](https://github.com/user-attachments/assets/03b7a734-74b9-4463-8065-85c609892903)
+
+3) Download Code Structure in https://github.com/Norsuhadahamran/Visual-Studio-2019/blob/main/Code%20Structure.
+   Copy code structure and paste at Source.asm.
+
+   **Code Structure:**
+   ; Author:
+; Program Name:
+; Program Description:
+; Date
+
+INCLUDE Irvine32.inc
+
+.data
+
+.code
+main PROC
+ 
+	call WaitMsg
+
+ exit
+main ENDP
+END main
+
+
+
+   
+
 
 
 
