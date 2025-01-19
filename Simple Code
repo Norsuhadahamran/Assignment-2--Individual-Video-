@@ -1,0 +1,26 @@
+; Author: 
+; Program Name :
+; Program Description :
+; Date: 18 Jan 2025
+
+include Irvine32.inc
+
+
+.data
+message BYTE "How to Setup MASM and Irvine Library Visual Studio | Setup Irvine Library | Visual Studio", 0dh, 0ah, 0
+
+.code
+
+main proc
+
+call Clrscr
+mov edx, offset message
+
+call WriteString
+
+exit
+
+main ENDP
+
+END main
+
