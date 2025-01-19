@@ -34,7 +34,7 @@ Add Assembly File: Right-click on the "Source Files" folder in your project, and
    
 **1. Download Irvine.zip**
 
-Go to Res
+Go to Repository and download folder "Irvine.Zip"
 
 
 
