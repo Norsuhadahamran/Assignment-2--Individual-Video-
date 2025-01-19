@@ -71,6 +71,7 @@ Under "Microsoft Macro Assembler" -> "General", find "Include Paths".
 5) Additional Library Directories (Linker):
    . Go to 'Assembly Project Github' under properties in Linker General at Additional Library Directories.
    Copy folder C:\Irvine and paste at Additional Library Directories.
+   ![image](https://github.com/user-attachments/assets/e7e65a71-fd79-48da-a974-d3f96d106d2b)
    ![image](https://github.com/user-attachments/assets/b38b459d-aece-4ccf-9633-0ef8dce3df11)
    ![image](https://github.com/user-attachments/assets/637e0ee0-334c-4fb2-b973-737d6c859923)
    ![image](https://github.com/user-attachments/assets/f62b1ea1-fe71-4c7a-a4ee-bf5665e4cc02)
