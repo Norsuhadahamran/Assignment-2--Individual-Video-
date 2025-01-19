@@ -119,7 +119,8 @@ Create your project name and click "Create"
 ![image](https://github.com/user-attachments/assets/8e98ac34-159b-49ed-93b8-37c2050548b5)
 
 Final the program must be succesful and can display the command without any failed.
-![image](https://github.com/user-attachments/assets/82a20ab1-0721-4f30-998f-8164033b5c8d)
+![image](https://github.com/user-attachments/assets/ab23bcb5-fa79-480e-9e97-10281df16962)
+
 
 
 
