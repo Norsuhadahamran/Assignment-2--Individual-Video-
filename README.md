@@ -76,6 +76,23 @@ Under "Microsoft Macro Assembler" -> "General", find "Include Paths".
    ![image](https://github.com/user-attachments/assets/637e0ee0-334c-4fb2-b973-737d6c859923)
    ![image](https://github.com/user-attachments/assets/f62b1ea1-fe71-4c7a-a4ee-bf5665e4cc02)
 
+   . Go to Linker under input in 'Additional Dependencies'add "irvine32.lib;"
+   ![image](https://github.com/user-attachments/assets/aac29254-40aa-45e2-8b56-b13cd3cf138a)
+
+   ' Under Micsoft Macro Assembler in Include Paths add "C:\Irvine "
+   ![image](https://github.com/user-attachments/assets/b03de7bb-f224-4bc6-8d19-eb10726512be)
+
+   . Under Linker in System at SubSystem choose "Console (/SUBSYSTEM:CONSOLE)"
+   ![image](https://github.com/user-attachments/assets/495c526a-615f-47dc-8faa-9dec39384186)
+
+
+
+
+
+
+
+
+
 
 
    . 
