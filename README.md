@@ -61,24 +61,24 @@ Add Assembly File: Right-click on the "Source Files" folder in your project, and
 
    **Code Structure:**
 
-   
-; Author:
-; Program Name:
-; Program Description:
-; Date
+   ![image](https://github.com/user-attachments/assets/946406b7-00e6-4a13-aae8-c1e398d9567c)
 
-INCLUDE Irvine32.inc
+4) Assembly Project Github : Right-click on your project in the Solution Explorer and select "Properties".
+Include Paths (MASM):
+Under "Microsoft Macro Assembler" -> "General", find "Include Paths".
+![image](https://github.com/user-attachments/assets/857f1645-aa9c-4585-9f82-48dd6ad6bfac)
 
-.data
+5) Additional Library Directories (Linker):
+   . Go to 'Assembly Project Github' under properties in Linker General at Additional Library Directories.
+   Copy folder C:\Irvine and paste at Additional Library Directories.
+   ![image](https://github.com/user-attachments/assets/b38b459d-aece-4ccf-9633-0ef8dce3df11)
+   ![image](https://github.com/user-attachments/assets/637e0ee0-334c-4fb2-b973-737d6c859923)
+   ![image](https://github.com/user-attachments/assets/f62b1ea1-fe71-4c7a-a4ee-bf5665e4cc02)
 
-.code
-main PROC
- 
-	call WaitMsg
 
- exit
-main ENDP
-END main
+
+   . 
+
 
 
 
