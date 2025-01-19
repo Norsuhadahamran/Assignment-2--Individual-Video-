@@ -1,4 +1,4 @@
-#Step by Step to Setup MASM and Irvine Library in Visual Studio | Setup Irvine Library#
+# Step by Step to Setup MASM and Irvine Library in Visual Studio | Setup Irvine Library
 
 **1. Download Visual Studio 2019**
 
