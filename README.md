@@ -92,34 +92,58 @@ Under "Microsoft Macro Assembler" -> "General", find "Include Paths".
  ![image](https://github.com/user-attachments/assets/f88738b8-cebd-47a8-b6e0-97dc7156fe52)
 
  Click "Next"
+ 
  ![image](https://github.com/user-attachments/assets/01741e2a-2edc-4fb8-9061-688cc5c07f41)
 
+ 
+
  Click "Finish"
+ 
  ![image](https://github.com/user-attachments/assets/27ae310b-2b7a-4230-a0d4-64fb44c81cd8)
 
+ 
+
  Open 'Create a new project', in searching find "Assembly Project Github" and click "Next"
+ 
  ![image](https://github.com/user-attachments/assets/ffeee6a9-3c2c-4d38-b455-62d18a47cd74)
 
+ 
+
 Create your project name and click "Create"
+
 ![image](https://github.com/user-attachments/assets/ae3b9829-f9c5-4e42-8849-0159b04d228c)
 
 
 
 **6. Write Assembler Code**
 ' Create simple program to run test the program
+
 ![image](https://github.com/user-attachments/assets/c124ea8b-9145-432e-a70c-359f2f917cf0)
 
+
+
 . Under Build, click "Compile"
+
 ![image](https://github.com/user-attachments/assets/6a973a63-c91e-4c92-8a44-30530ffa92bc)
 
+
+
 . The result Output should be success without failed
+
 ![image](https://github.com/user-attachments/assets/d2b1a595-5099-4edb-99fd-66a73ed8dca9)
 
+
+
 . Next, Under 'Debug' click "Start Debugging"
+
 ![image](https://github.com/user-attachments/assets/8e98ac34-159b-49ed-93b8-37c2050548b5)
 
+
+
 Final the program must be succesful and can display the command without any failed.
-![image](https://github.com/user-attachments/assets/ab23bcb5-fa79-480e-9e97-10281df16962)
+
+![image](https://github.com/user-attachments/assets/0e3ad02b-7e54-4222-bdd7-1c906985298a)
+
 
 
 
