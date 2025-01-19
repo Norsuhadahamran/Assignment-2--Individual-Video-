@@ -7,79 +7,39 @@ Microsoft's Visual Studio is an integrated development environment (IDE) used fo
 
 # Step by Step to Setup MASM and Irvine Library in Visual Studio | Setup Irvine Library
 
-**1. Download and Prepare the Irvine32 Library**
+**1. Download Visual Studio 2019**
 
-* **Download:** Get the Irvine32 library from GitHub .
-* **Extract:** Unzip the downloaded file. You'll find `Irvine32.inc`, `Irvine32.lib`, and some example code.
-* **Organize:** Create a folder (e.g., `C:\Irvine`) and place the `Irvine32.inc` and `Irvine32.lib` files inside.
+* **Download:** Get the Visual Studio from GitHub https://github.com/Norsuhadahamran/Visual-Studio-2019 .
 
 **2. Set Up a Visual Studio Project**
 
-* **New Project:** Open Visual Studio and create a new "Empty Project". Make sure to select C++ as the language.
-* **Add Assembly File:** Right-click on the "Source Files" folder in your project, and add a new item. Name it with the `.asm` extension (e.g., `myProgram.asm`).
+New Project: Open Visual Studio and create a new "Empty Project". Make sure to select C++ as the language.
+
+Add Assembly File: Right-click on the "Source Files" folder in your project, and add a new item. Name it with e.g., Assembly Project and click button OK.
 
 **3. Configure Visual Studio for MASM**
 
-* **Build Customization:**
-    * Right-click on your project in the Solution Explorer.
-    * Go to "Build Dependencies" -> "Build Customizations".
-    * Check the box for "masm(.targets,.props)".
-* **Set Item Type:**
-    * In the Solution Explorer, right-click on your `.asm` file.
-    * Select "Properties".
-    * Make sure "Item Type" is set to "Microsoft Macro Assembler".
+1 ) Delete unrelated folder such as Header Files, Resource Files & Sources Files (Right Click and click delete)
+![image](https://github.com/user-attachments/assets/8e6bbb14-136b-493f-a367-8210033b2d3a)
 
-**4. Link the Irvine32 Library**
+2) Click "OK" for the selected items will be removed from 'Assembly Project Github'
+![image](https://github.com/user-attachments/assets/214f5393-492e-40aa-a93c-668be61f565e)
 
-* **Project Properties:** Right-click on your project in the Solution Explorer and select "Properties".
-* **Include Paths (MASM):**
-    * Under "Microsoft Macro Assembler" -> "General", find "Include Paths".
-    * Add the path to your Irvine folder (e.g., `C:\Irvine`).
-* **Additional Library Directories (Linker):**
-    * Go to "Linker" -> "General" -> "Additional Library Directories".
-    * Add the path to your Irvine folder again.
-* **Additional Dependencies (Linker):**
-    * Navigate to "Linker" -> "Input" -> "Additional Dependencies".
-    * Add `Irvine32.lib` to the list.
+3) Right Click in 'Assembly Project Github' choose 'Build Dependencies' and Click 'Build Customizations..'
+![image](https://github.com/user-attachments/assets/945c0db6-dccc-4390-9908-2ff0ddd0c1ac)
 
-**5. Write Your Assembly Code**
+4) For 'Available Build Customization Files', Click "masm(.target,.props)" and click "OK"
+   ![image](https://github.com/user-attachments/assets/821b2deb-e0db-4bf6-a946-1383f7f5a59e)
 
-* **Include Irvine32.inc:** At the beginning of your `.asm` file, add the following line:
+   
+**1. Download Irvine.zip**
 
-```assembly
-INCLUDE Irvine32.inc
-```
+Go to Res
 
-* **Example Code:**
 
-```assembly
-INCLUDE Irvine32.inc
 
-.data
-    message BYTE "Hello, world!",0dh,0ah,0
 
-.code
-main PROC
-    mov edx, OFFSET message
-    call WriteString
-    exit
-main ENDP
-END main
-```
 
-**6. Build and Run**
 
-* Build your solution (Build -> Build Solution).
-* Run your program (Debug -> Start Without Debugging).
-
-You should see "Hello, world!" printed in the console window.
-
-**Important Notes:**
-
-* **Visual Studio Version:** These steps are generally applicable to recent Visual Studio versions. Older versions might have slightly different menu options.
-* **32-bit vs. 64-bit:**  The Irvine32 library is designed for 32-bit applications. Make sure your Visual Studio project is configured to target x86 architecture.
-* **Troubleshooting:** If you encounter errors, double-check all the paths and settings, and make sure the Irvine32 files are correctly placed.
-
-If you have any more questions, feel free to ask!
 
 
