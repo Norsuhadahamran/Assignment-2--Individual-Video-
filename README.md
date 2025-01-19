@@ -42,7 +42,10 @@ Add Assembly File: Right-click on the "Source Files" folder in your project, and
 ![image](https://github.com/user-attachments/assets/d4dfefc7-efcd-4b39-a1b0-5f5f6c61e833)
 
 3) Go to folder C:\, click folder Irvine and the contain folder should be like this:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/565979fc-f723-4651-a3c5-66164d57d222)
+
+
+
 
    
 
