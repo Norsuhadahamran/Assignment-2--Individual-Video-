@@ -20,6 +20,11 @@ The Irvine library essentially acts as an intermediary between your assembly cod
 
 
 
+# Reflection
+For the reflection, it is very helpful to me a lot how to communicate with higher-level languages like C++ in Visual Studio 2019. It also helps me to understand the assembly language code that will be written. Now i have basic knowledge in programming C++; in future, i want to develop more understanding for other programming such as Python, HTML, Java, etc. 
+
+
+
 
 
 
